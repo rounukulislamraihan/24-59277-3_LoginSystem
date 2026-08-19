@@ -82,5 +82,17 @@ All ADO.NET code lives in **`DatabaseHelper.cs`** — the forms never open a `Sq
 - [ ] Injection demo — before (exploit succeeds) and after (exploit fails)
 
 ## Problems hit and how I solved them
-
-`[Fill this in with your own experience — e.g. "Cannot open database" until I matched Initial Catalog to the real DB name, or SqlClient namespace issues, etc.]`
+1. SQL Connection Error
+   Fixed by configuring connection string in app.config and using Windows Authentication with localhost.
+2. Missing Database Table
+   Added automatic table creation check in Form_Load to create Users table if it doesn't exist.
+3. Login Failed Despite Correct Credentials
+   Applied same password hashing algorithm during login that was used during registration.
+4. App Didn't Close on Logout
+   Used Application.Exit() and Environment.Exit(0) instead of just this.Hide().
+5. Empty Fields Crashed the App
+   Added string.IsNullOrEmpty() validation with warning messages before processing.
+6. Duplicate Username Registration
+   Added UNIQUE constraint in database and checked existence before inserting.
+7. Bin/Obj Folders Uploaded to GitHub
+   Added .gitignore file to exclude unnecessary build folders.
