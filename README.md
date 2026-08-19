@@ -72,14 +72,11 @@ All ADO.NET code lives in **`DatabaseHelper.cs`** — the forms never open a `Sq
 11. No registration form, and no logout at all, despite the project being called "Login Logout".
 
 ## Screenshots
+<img width="1883" height="998" alt="Screenshot 2026-08-19 185816" src="https://github.com/user-attachments/assets/fb64fc6d-e740-4612-8dfd-7095d3ccbfbb" />
+<img width="1883" height="1004" alt="Screenshot 2026-08-19 185736" src="https://github.com/user-attachments/assets/3f1cd8c3-ee19-4b01-aef0-578dbc648884" />
+<img width="1876" height="1005" alt="Screenshot 2026-08-19 185557" src="https://github.com/user-attachments/assets/f1aa484b-6ab5-4906-857b-3a714832ed95" />
+<img width="1903" height="1021" alt="Screenshot 2026-08-19 185338" src="https://github.com/user-attachments/assets/512f0919-3d4e-4c2c-9c06-645086813fbd" />
 
-- [ ] Table design (Users columns)
-- [ ] Registration form (successful registration)
-- [ ] Successful login
-- [ ] Failed login (and the 3-attempt lockout)
-- [ ] Home screen with the users grid
-- [ ] Logout returning to a cleared login form
-- [ ] Injection demo — before (exploit succeeds) and after (exploit fails)
 
 ## Problems hit and how I solved them
 1. SQL Connection Error
