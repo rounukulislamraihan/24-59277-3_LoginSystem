@@ -74,16 +74,22 @@ All ADO.NET code lives in **`DatabaseHelper.cs`** — the forms never open a `Sq
 ## Screenshots
 table design
 <img width="1896" height="1015" alt="Screenshot 2026-08-21 002832" src="https://github.com/user-attachments/assets/2afddcd2-284c-42f7-90c6-95192a98e721" />
+
 registration form
 <img width="1880" height="1020" alt="Screenshot 2026-08-21 001001" src="https://github.com/user-attachments/assets/36e60fb0-6b06-4a63-b69e-27fe78c163e0" />
+
 successful registration
 <img width="1902" height="1013" alt="Screenshot 2026-08-21 001013" src="https://github.com/user-attachments/assets/e830de98-dbf3-4782-8ca0-254a6c15a2de" />
+
 successful login
 <img width="1888" height="1004" alt="Screenshot 2026-08-21 001108" src="https://github.com/user-attachments/assets/62d2f7b2-4946-4ea0-b122-942e202fdf31" />
-hpme screen with the grid
+
+home screen with the grid
 <img width="1877" height="1009" alt="Screenshot 2026-08-21 001124" src="https://github.com/user-attachments/assets/ba6d73f3-d61d-41d1-b75c-205b5c90e212" />
+
 failed login
 <img width="1898" height="1019" alt="Screenshot 2026-08-21 001220" src="https://github.com/user-attachments/assets/5f8fd945-17dd-4590-b7a4-bec161fdfac2" />
+
 logout
 <img width="1873" height="1005" alt="Screenshot 2026-08-21 001133" src="https://github.com/user-attachments/assets/274b19ed-701a-4660-9da3-0e9051198b84" />
 
