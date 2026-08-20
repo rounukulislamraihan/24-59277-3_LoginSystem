@@ -72,11 +72,20 @@ All ADO.NET code lives in **`DatabaseHelper.cs`** — the forms never open a `Sq
 11. No registration form, and no logout at all, despite the project being called "Login Logout".
 
 ## Screenshots
-<img width="1883" height="998" alt="Screenshot 2026-08-19 185816" src="https://github.com/user-attachments/assets/fb64fc6d-e740-4612-8dfd-7095d3ccbfbb" />
-<img width="1883" height="1004" alt="Screenshot 2026-08-19 185736" src="https://github.com/user-attachments/assets/3f1cd8c3-ee19-4b01-aef0-578dbc648884" />
-<img width="1876" height="1005" alt="Screenshot 2026-08-19 185557" src="https://github.com/user-attachments/assets/f1aa484b-6ab5-4906-857b-3a714832ed95" />
-<img width="1903" height="1021" alt="Screenshot 2026-08-19 185338" src="https://github.com/user-attachments/assets/512f0919-3d4e-4c2c-9c06-645086813fbd" />
-
+table design
+<img width="1896" height="1015" alt="Screenshot 2026-08-21 002832" src="https://github.com/user-attachments/assets/2afddcd2-284c-42f7-90c6-95192a98e721" />
+registration form
+<img width="1880" height="1020" alt="Screenshot 2026-08-21 001001" src="https://github.com/user-attachments/assets/36e60fb0-6b06-4a63-b69e-27fe78c163e0" />
+successful registration
+<img width="1902" height="1013" alt="Screenshot 2026-08-21 001013" src="https://github.com/user-attachments/assets/e830de98-dbf3-4782-8ca0-254a6c15a2de" />
+successful login
+<img width="1888" height="1004" alt="Screenshot 2026-08-21 001108" src="https://github.com/user-attachments/assets/62d2f7b2-4946-4ea0-b122-942e202fdf31" />
+hpme screen with the grid
+<img width="1877" height="1009" alt="Screenshot 2026-08-21 001124" src="https://github.com/user-attachments/assets/ba6d73f3-d61d-41d1-b75c-205b5c90e212" />
+failed login
+<img width="1898" height="1019" alt="Screenshot 2026-08-21 001220" src="https://github.com/user-attachments/assets/5f8fd945-17dd-4590-b7a4-bec161fdfac2" />
+logout
+<img width="1873" height="1005" alt="Screenshot 2026-08-21 001133" src="https://github.com/user-attachments/assets/274b19ed-701a-4660-9da3-0e9051198b84" />
 
 ## Problems hit and how I solved them
 1. SQL Connection Error
